@@ -1,0 +1,29 @@
+body,.x-tree-node-anchor>span {
+    font-family: 'lucida grande', tahoma, arial, sans-serif;
+    font-size: 12px;
+}
+
+#header {
+    background: #7F99BE url(../images/layout-browser-hd-bg.gif) repeat-x center;
+}
+
+#header h1 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+    padding: 5px 10px;
+}
+
+#details_panel h2 {
+    padding: 10px 10px 0;
+    font-size: 12px;
+    color: #15428B;
+}
+
+#details_panel p {
+    padding: 10px 10px 0;
+}
+
+.cellCls{
+	width:50%
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE weblogic-web-app PUBLIC "-//BEA Systems, Inc.//DTD Web Application 8.1//EN" "http://www.bea.com/servers/wls810/dtd/weblogic810-web-jar.dtd">
+<weblogic-web-app>
+	<reference-descriptor>
+    <resource-description>
+      <res-ref-name>jdbc/curriculum</res-ref-name>
+      <jndi-name>jdbc/curriculum</jndi-name>
+    </resource-description>
+	<resource-description>
+      <res-ref-name>jdbc/v3test</res-ref-name>
+      <jndi-name>jdbc/v3test</jndi-name>
+    </resource-description>
+  </reference-descriptor>
+	<session-descriptor>
+		<session-param>
+			<param-name>CookieName</param-name>
+			<param-value>JSESSIONIDCURRICULUM</param-value>
+		</session-param>
+	</session-descriptor>
+	<!-- 启用WebLogic Classes优先加载机制 -->
+	<container-descriptor> 
+    	<prefer-web-inf-classes>false</prefer-web-inf-classes>
+    </container-descriptor> 
+	<context-root>/</context-root>
+</weblogic-web-app>

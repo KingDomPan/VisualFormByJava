@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>表单流程可视化界面配置</title>
+<link rel="stylesheet" type="text/css" href="resources/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+<script type="text/javascript" src="adapter/ext/ext-base.js"></script>
+<script type="text/javascript" src="ext-all.js"></script>
+<script type="text/javascript" src="ext-lang-zh_CN.js"></script>
+<script type="text/javascript" src="layout.js"></script>
+</head>
+<body>
+<div id="header"><h1>表单流程可视化界面配置</h1></div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menus>
+    <Menu title="表单页面表配置" id="forms"></Menu>
+    <Menu title="表单数据存储表配置" id="data_tables"></Menu>
+    <Menu title="表单页面与数据存储表关联配置" id="form_tables"></Menu>
+    <Menu title="主从表关系配置" id="table_reference"></Menu>
+    <Menu title="数据表字段信息配置" id="data_table_fields"></Menu>
+    <Menu title="表单元素配置" id="form_element"></Menu>
+    <Menu title="表单元素字段绑定配置" id="form_element_bind"></Menu>
+    <Menu title="环节表单关联流程配置" id="tache_form"></Menu>
+    <Menu title="表单字段处理权限定义配置" id="form_element_right"></Menu>
+    <Menu title="环节表单字段权限控制配置" id="flow_form_element_right"></Menu>
+</Menus>
