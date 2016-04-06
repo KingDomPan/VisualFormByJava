@@ -11,3 +11,4 @@ bin/
 .mymetadata
 lib/
 classes/
+.svn/
